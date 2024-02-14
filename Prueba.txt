@@ -1,1 +1,11 @@
-Hola Mundo
+cd <link carpeta> - acceder a una carpeta
+git init - Se inicia un repositorio vacio (carpeta .git)
+git config user.name "<nombre usuario git>" - por lo general mismo nombre de github
+git config user.email "<email>" - configura y relaciona con el email asociado al nombre de usuario git
+git remote add origin "<link de reposotirio>"- comunica el repositorio local con el remoto
+
+git status - Ver el estado del git 
+git add <nombre archivo> - Añade archivos para un nuevo paquete
+git commit -m <mensaje> - Creas un "paquete" (commit) con los cambios que seleccionaste con git add.
+git push -u origin <rama> - Git envía tus cambios locales al repositorio remoto
+
